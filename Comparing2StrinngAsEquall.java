@@ -26,13 +26,20 @@ public class Comparing2StrinngAsEquall
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void sampleMethod()
     {
-        while(!(a==b){
-            a++;
-            System.out.println(a + " & " + b + " are not the same value.");
-        else
-            System.out.println(a + " & " + b + " are the same value.");
-        }
+        int a = 0;
+        int b = 3;
+        while(true){
+            if(!(a==b)){
+                a++;
+                if(a==b){
+                    System.out.println(a + " & " + b + " are the same value.");
+                    break;
+                }
+                System.out.println(a + " & " + b + " are not the same value.");
+            }  
+            }
+        }        
     }
-}
+
