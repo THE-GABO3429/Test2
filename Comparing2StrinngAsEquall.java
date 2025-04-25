@@ -13,20 +13,17 @@ public class Comparing2StrinngAsEquall
     /**
      * Constructor for objects of class Comparing2StrinngAsEquall
      */
-    public void Comparing2StrinngAsEquall(String a, String b)
+    public void Comparing2StrinngAsEquall()
     {
         // initialise instance variables
-        a += 0;
-        b += 3;
-        while(true){
-            if(!(a==b)){
-                a = b;
-                if(a==b){
-                    System.out.println(a + " & " + b + " are the same value.");
-                    break;
-                }
-                System.out.println(a + " & " + b + " are not the same value.");
-            }  
+        String str1 = "a";
+        String str2 = "b";
+        
+        if(str1.equals(str2)){
+            System.out.println(a + " & " + b + " are the same value.");
         }
+        else{
+                System.out.println(a + " & " + b + " are not the same value.");
+        }  
     }
 }
