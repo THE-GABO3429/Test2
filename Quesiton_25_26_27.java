@@ -8,28 +8,29 @@ import java.util.ArrayList;
 public class Quesiton_25_26_27
 {
     // instance variables - replace the example below with your own
-
-    /**
-     * An example of a method - replace this comment with your own
-     * Question 25
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public hasFever (ArrayList<tempertaure>()){
+    private ArrayList<Double> temperatures;
+    public Quesiton_25_26_27(){
+        ArrayList<Double> temperatures;
+        temperatures.add(34.5);
+        temperatures.add(39.5);
+        temperatures.add(44.5);
+        temperatures.add(24.5);
+        temperatures.add(44.5);
+        temperatures.add(38.5);
+        fever(temperatures);
+    }
+    
+    public void fever(ArrayList<Double> temperatures){
         int isSick = 0;
-        int isNotSick = 0;
-        int Highest = 0;
-        for-each(ArrayList<>()>37.5){
+        double max = 0;
+        while(temperatures > 37.5){
             isSick++;
-            if(Highest < ArrayList<>()){
-                Highest = ArrayList<>();}
+            if(max < temperatures){
+                max = temperatures;
             }
-        else
-            isNotSick++;}
-        return System.out.println("There are " + isSick + " are sick, and " + isNotSick + 
-                " that are not sick. The highest temperture tested was " + Heighest + " `C.")
-            }
-        
+        }
+        System.out.println("Number of fever cases reported: " + isSick);
+        System.out.println("Heighest case of fever reported: " + max);
     }
 }
 /**
