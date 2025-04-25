@@ -17,7 +17,7 @@ public class Comparing2StrinngAsEquall
     {
         // initialise instance variables
         int a = 0;
-        int b = 0;
+        int b = 3;
     }
 
     /**
